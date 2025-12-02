@@ -56,13 +56,13 @@ const Header = ({ loader }: HeaderProps) => {
 
         <OnlineUsers />
         <FunnyThemeToggle className="w-6 h-6 mr-4" />
-        {config.githubUsername && config.githubRepo && (
+        {/* {config.githubUsername && config.githubRepo && (
           <GitHubStarsButton
             username={config.githubUsername}
             repo={config.githubRepo}
             className="mr-4"
           />
-        )}
+        )} */}
         <Button
           variant={"ghost"}
           onClick={() => setIsActive(!isActive)}
